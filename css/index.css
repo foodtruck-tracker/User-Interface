@@ -307,8 +307,17 @@ body,
 html {
   height: 100%;
   background-color: #202124;
+  font-family: 'Open Sans', sans-serif;
 }
-.cta-header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+.header-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -318,9 +327,21 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #14323C;
+  justify-content: flex-end;
 }
-.cta-header i {
-  font-size: 10rem;
+.header-text {
+  color: #ecf0f1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding-top: 10%;
+  border-radius: 5%;
+  background-color: rgba(32, 33, 36, 0.7);
+  border: 1px solid rgba(236, 240, 241, 0.4);
+}
+.header-text i {
+  font-size: 6rem;
 }

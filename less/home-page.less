@@ -1,4 +1,4 @@
-.cta-header {
+.header-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -9,12 +9,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     
-    color: @secondary;
+}
+
+.header-text {
+    color: @bright;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    padding-top: 10%;
+    border-radius: 5%;
+
+    background-color: fadeout(@background-color, 30%);
+
+    border: 1px solid fadeout(@bright, 60%);
+
     i {
-        font-size: 10rem;
-
+        font-size: 6rem;
     }
-
 }
