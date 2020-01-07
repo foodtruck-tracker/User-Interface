@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    color: @primary;
+    color: @tertiary;
 }
 h3 {
     color: @secondary;
@@ -28,8 +28,27 @@ p {
 }
 
 .card {
-    background-color:#bebebe;    ;
+    background-color: @grey;    ;
     border-radius: .5rem;
     padding: 5%;
     margin-bottom: 5%;
+}
+
+ul {
+    margin: 0;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    li {
+        i {
+            margin-right: 1rem;
+        }
+    }
+}
+
+hr {
+    width: 75%;
+    margin: 10% auto;
+    color: @primary;
+    height: 0px;
+    
 }

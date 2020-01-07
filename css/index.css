@@ -318,7 +318,7 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  color: #F4B350;
+  color: #F2CA27;
 }
 h3 {
   color: #14323C;
@@ -335,6 +335,40 @@ p {
   border-radius: 0.5rem;
   padding: 5%;
   margin-bottom: 5%;
+}
+ul {
+  margin: 0;
+  line-height: 4rem;
+  font-size: 1.4rem;
+}
+ul li i {
+  margin-right: 1rem;
+}
+hr {
+  width: 75%;
+  margin: 10% auto;
+  color: #F4B350;
+  height: 0px;
+}
+footer {
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: #bebebe;
+  border-radius: 0.5rem;
+  padding: 5%;
+  margin-bottom: 5%;
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+.social i {
+  display: block;
+  font-size: 4rem;
 }
 .header-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
@@ -363,9 +397,9 @@ p {
   border: 1px solid rgba(244, 179, 80, 0.7);
 }
 .header-text i {
-  font-size: 6rem;
+  font-size: 3rem;
 }
-.hero-button {
+.cta-button {
   width: 90%;
   border: 1px solid rgba(244, 179, 80, 0.7);
   border-radius: 0.5rem;
@@ -374,16 +408,16 @@ p {
   font-weight: bold;
   font-size: 1.1rem;
   color: #202124;
-  background-color: rgba(244, 179, 80, 0.7);
+  background-color: rgba(244, 179, 80, 0.95);
   margin-bottom: 5%;
   font-size: 1.3rem;
 }
 .down-arrow {
   font-size: 1.5rem;
-  color: rgba(244, 179, 80, 0.8);
+  color: rgba(244, 179, 80, 0.85);
   margin-bottom: 5%;
 }
-.about-button {
+.secondary-button {
   width: 90%;
   border: 1px solid rgba(244, 179, 80, 0.7);
   border-radius: 0.5rem;
@@ -392,8 +426,9 @@ p {
   font-weight: bold;
   font-size: 1.1rem;
   color: #202124;
-  background-color: rgba(244, 179, 80, 0.7);
+  background-color: rgba(244, 179, 80, 0.95);
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: rgba(242, 202, 39, 0.85);
 }
