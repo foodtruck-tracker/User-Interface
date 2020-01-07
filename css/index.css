@@ -303,6 +303,24 @@ template {
 [hidden] {
   display: none;
 }
-body {
+body,
+html {
+  height: 100%;
   background-color: #202124;
+}
+.cta-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #14323C;
+}
+.cta-header i {
+  font-size: 10rem;
 }
