@@ -1,0 +1,20 @@
+{
+  "name": "user-interface",
+  "version": "1.0.0",
+  "description": "Marketing page for Lambda BW-Foodtruck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foodtruck-tracker/User-Interface.git"
+  },
+  "author": "Liam Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foodtruck-tracker/User-Interface/issues"
+  },
+  "homepage": "https://github.com/foodtruck-tracker/User-Interface#readme",
+  "dependencies": {}
+}
