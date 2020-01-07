@@ -317,6 +317,25 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
+h2 {
+  color: #F4B350;
+}
+h3 {
+  color: #14323C;
+}
+p {
+  color: #14323C;
+}
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.card {
+  background-color: #bebebe;
+  border-radius: 0.5rem;
+  padding: 5%;
+  margin-bottom: 5%;
+}
 .header-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
   background-position: center;
@@ -330,7 +349,7 @@ h6 {
   justify-content: flex-end;
 }
 .header-text {
-  color: #ecf0f1;
+  color: #F4B350;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -338,10 +357,43 @@ h6 {
   justify-content: center;
   width: 90%;
   padding-top: 10%;
-  border-radius: 5%;
-  background-color: rgba(32, 33, 36, 0.7);
-  border: 1px solid rgba(236, 240, 241, 0.4);
+  border-radius: 0.5rem;
+  margin-bottom: 5%;
+  background-color: rgba(32, 33, 36, 0.9);
+  border: 1px solid rgba(244, 179, 80, 0.7);
 }
 .header-text i {
   font-size: 6rem;
+}
+.hero-button {
+  width: 90%;
+  border: 1px solid rgba(244, 179, 80, 0.7);
+  border-radius: 0.5rem;
+  height: 10%;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #202124;
+  background-color: rgba(244, 179, 80, 0.7);
+  margin-bottom: 5%;
+  font-size: 1.3rem;
+}
+.down-arrow {
+  font-size: 1.5rem;
+  color: rgba(244, 179, 80, 0.8);
+  margin-bottom: 5%;
+}
+.about-button {
+  width: 90%;
+  border: 1px solid rgba(244, 179, 80, 0.7);
+  border-radius: 0.5rem;
+  height: 10%;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #202124;
+  background-color: rgba(244, 179, 80, 0.7);
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
