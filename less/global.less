@@ -33,10 +33,11 @@ p {
         flex-direction: column;
         align-items: center;
         width: 84%;
+        @media (min-width: @desktop) {
+            width: 70%;
+        }
     }
-    @media (min-width: @desktop) {
-        width: 70%;
-    }
+   
 }
 
 .card {
@@ -48,7 +49,7 @@ p {
 
 ul {
     margin: 0;
-    line-height: 4rem;
+    line-height: 2.4rem;
     font-size: 1.4rem;
     li {
         i {

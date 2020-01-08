@@ -2,10 +2,13 @@ footer {
     .card();
     width: 74%;
     margin: 0 auto;
+    margin-top: 5%;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     @media  (min-width: @desktop) {
-        width: 50%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -17,4 +20,8 @@ footer {
         font-size: 4rem;
     }
     margin-bottom: 5%;
+    @media (min-width: @desktop) {
+        width: 27.5%;
+        justify-content: space-between;
+    }
 }

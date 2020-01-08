@@ -15,6 +15,9 @@
     @media (min-width: @tablet) {
         height: 70%;
     }
+    @media (min-width: @desktop) {
+        height: 100%;
+    }
     
 }
 
@@ -23,11 +26,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-
+    width: 60%;
     @media (min-width: @tablet) {
         flex-direction: row;
         width: 85%;
         justify-content: space-between;
+    }
+    @media (min-width: @desktop) {
+        width: 70%;
     }
 }
 
@@ -56,7 +62,13 @@
 @media (min-width: @tablet) {
     margin-bottom: 0;
 }
-    
+@media (min-width: @desktop) {
+    font-size: 2rem;
+    i {
+        font-size: 4rem;
+    }
+}
+
 }
 
 .header-buttons{
@@ -97,6 +109,31 @@
     h2 {
         align-self: flex-start;
     }
-    
+    @media (min-width: @desktop) {
+        flex-direction: row;
+        .card {
+            width: 50%;
+        }
+    }
 }
 
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card {
+        width: 90%;
+        min-width: 310px;;
+    }
+    @media (min-width: @desktop) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        .card {
+            width: 35%;
+            min-height: 200px;
+        }
+    }
+}
