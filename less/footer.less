@@ -1,9 +1,12 @@
 footer {
-    .container();
     .card();
-    margin-bottom: 0;
+    width: 74%;
+    margin: 0 auto;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    @media  (min-width: @desktop) {
+        width: 50%;
+    }
 }
 
 .social {

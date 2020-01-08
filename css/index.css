@@ -327,8 +327,22 @@ p {
   color: #14323C;
 }
 .container {
-  margin-left: 7%;
-  margin-right: 7%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84%;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 70%;
+  }
 }
 .card {
   background-color: #bebebe;
@@ -345,21 +359,25 @@ ul li i {
   margin-right: 1rem;
 }
 hr {
-  width: 75%;
   margin: 10% auto;
   color: #F4B350;
   height: 0px;
+  width: 95%;
 }
 footer {
-  margin-left: 7%;
-  margin-right: 7%;
   background-color: #bebebe;
   border-radius: 0.5rem;
   padding: 5%;
   margin-bottom: 5%;
-  margin-bottom: 0;
+  width: 74%;
+  margin: 0 auto;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+@media (min-width: 1000px) {
+  footer {
+    width: 50%;
+  }
 }
 .social {
   display: flex;
@@ -376,11 +394,30 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 80%;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 500px) {
+  .header-bg {
+    height: 70%;
+  }
+}
+.header-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 500px) {
+  .header-container {
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+  }
 }
 .header-text {
   color: #F4B350;
@@ -394,41 +431,62 @@ footer {
   border-radius: 0.5rem;
   margin-bottom: 5%;
   background-color: rgba(32, 33, 36, 0.9);
-  border: 1px solid rgba(244, 179, 80, 0.7);
+  border: 1px solid rgba(190, 190, 190, 0.7);
 }
 .header-text i {
   font-size: 3rem;
 }
-.cta-button {
+@media (min-width: 500px) {
+  .header-text {
+    margin-bottom: 0;
+  }
+}
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+@media (min-width: 500px) {
+  .header-buttons {
+    flex-direction: column;
+  }
+}
+.main-button {
   width: 90%;
   border: 1px solid rgba(244, 179, 80, 0.7);
   border-radius: 0.5rem;
-  height: 10%;
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+  padding: 1rem;
   color: #202124;
   background-color: rgba(244, 179, 80, 0.95);
-  margin-bottom: 5%;
   font-size: 1.3rem;
 }
-.down-arrow {
-  font-size: 1.5rem;
-  color: rgba(244, 179, 80, 0.85);
+.cta-button {
   margin-bottom: 5%;
 }
 .secondary-button {
   width: 90%;
   border: 1px solid rgba(244, 179, 80, 0.7);
   border-radius: 0.5rem;
-  height: 10%;
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+  padding: 1rem;
   color: #202124;
   background-color: rgba(244, 179, 80, 0.95);
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgba(242, 202, 39, 0.85);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h2 {
+  align-self: flex-start;
 }
