@@ -326,6 +326,9 @@ h3 {
 p {
   color: #14323C;
 }
+.main {
+  height: 100%;
+}
 .container {
   width: 100%;
   display: flex;
@@ -397,6 +400,26 @@ footer {
     justify-content: space-between;
   }
 }
+.login-sidebar {
+  width: 92%;
+  display: flex;
+  justify-content: flex-end;
+}
+.login-sidebar button {
+  margin-top: 1%;
+  z-index: 100;
+  position: fixed;
+  width: 20%;
+  background-color: #F2CA27;
+}
+@media (min-width: 1000px) {
+  .login-sidebar {
+    width: 85%;
+  }
+  .login-sidebar button {
+    width: 10%;
+  }
+}
 .header-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.048)), url(../img/hero-image.jpg);
   background-position: center;
@@ -421,6 +444,7 @@ footer {
   }
 }
 .header-container {
+  margin-top: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -429,6 +453,7 @@ footer {
 }
 @media (min-width: 500px) {
   .header-container {
+    margin-top: 0%;
     flex-direction: row;
     width: 85%;
     justify-content: space-between;
