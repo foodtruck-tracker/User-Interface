@@ -505,7 +505,7 @@ footer {
     flex-direction: column;
   }
 }
-.main-button {
+.primary-button {
   width: 90%;
   border: 1px solid rgba(244, 179, 80, 0.7);
   border-radius: 0.5rem;
