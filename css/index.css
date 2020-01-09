@@ -352,6 +352,7 @@ p {
   border-radius: 0.5rem;
   padding: 5%;
   margin-bottom: 5%;
+  text-align: left;
 }
 ul {
   margin: 0;
@@ -372,6 +373,7 @@ footer {
   border-radius: 0.5rem;
   padding: 5%;
   margin-bottom: 5%;
+  text-align: left;
   width: 74%;
   margin: 0 auto;
   margin-top: 5%;
